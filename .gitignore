@@ -16,5 +16,5 @@ Cargo.lock
 # Added by me
 .vscode/
 bin/
-configure.sh
+config/config_git.sh
 .DS_Store
