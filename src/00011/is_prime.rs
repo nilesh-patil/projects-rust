@@ -4,6 +4,10 @@ fn is_prime(n: i32) -> bool {
     if n <= 1 {
         return false;
     }
+    // check if n is divisible by any number between 2 and the square root of n
+    // since if n is divisible by any number greater than the square root of n, then it is not prime
+    // till sqrt(n) since sqrt(n) * sqrt(n) = n and less than sqrt(n) will have already been checked ( i * j = n )
+    // so we can just check up to sqrt(n)
     for i in 2..=(n as f64).sqrt() as i32 {
         if n % i == 0 {
             return false;
