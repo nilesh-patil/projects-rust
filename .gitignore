@@ -17,3 +17,4 @@ Cargo.lock
 .vscode/
 bin/
 configure.sh
+.DS_Store
