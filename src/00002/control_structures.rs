@@ -1,0 +1,29 @@
+// 1. if statements
+// 2. if else statements
+// 3. if else if else statements
+// 4. match statements
+// 5. while loops
+// 6. for loops
+// 7. loop
+
+fn main() {
+    // 1. if statements
+    let x = 5 i32;
+    if x > 0 {
+        println!("x is greater than 0");
+    }
+    // 2. if else statements
+    if x > 0 {
+        println!("x is greater than 0");
+    } else {
+        println!("x is less than 0");
+    }
+    // 3. if else if else statements
+    if x > 0 {
+        println!("x is greater than 0");
+    } else if x < 0 {
+        println!("x is less than 0");
+    } else {
+        println!("x is 0");
+    }
+}
