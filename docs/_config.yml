@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+baseurl: "/projects-rust" # IMPORTANT: Change this if your repository name is different!
 
 title: Rust Exercises Documentation
 

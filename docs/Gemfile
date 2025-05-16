@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 3.9" # Or a version compatible with GitHub Pages
+gem "jekyll-theme-minimal"
+
+# Add any other Jekyll plugins you might use here, for example:
+# gem "jekyll-feed"
+# gem "jekyll-seo-tag"
+
+# This group is for GitHub Pages compatibility
+group :jekyll_plugins do
+  gem "jekyll-gist"
+  gem "jekyll-github-metadata"
+  # Add other GitHub Pages supported plugins if needed
+end 
