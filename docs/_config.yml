@@ -1,6 +1,25 @@
 theme: jekyll-theme-minimal
 
-title: "Learning Rust"
+title: Rust Exercises Documentation
 
-description: "Learning Rust by mini exercises"
+description: A collection of Rust exercises and their documentation.
+
+# Theme (optional, remove if you don't want to use one or want to use default Minima)
+# theme: minima 
+
+# Plugins (optional)
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default behavior.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 

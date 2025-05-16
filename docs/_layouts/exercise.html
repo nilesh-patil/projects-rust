@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="exercise">
+  <h2>{{ page.title }}</h2>
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% if page.source_code %}
+  <h3>Source Code</h3>
+  <pre><code class="language-rust">{{ page.source_code | escape }}</code></pre>
+  {% endif %}
+
+  <p><a href="{{ site.baseurl }}/">&laquo; Back to exercises list</a></p>
+</article> 
